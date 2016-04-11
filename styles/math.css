@@ -1,0 +1,137 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  line-height: 1; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+nav ul {
+  list-style: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ff0;
+  margin: 1em 0;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
+@font-face {
+  font-face-name: Stratum1-Regular;
+  font-family: Stratum1-Regular;
+  src: url(../styles/fonts/Stratum1/Stratum1-Regular.otf) format("opentype"); }
+@font-face {
+  font-face-name: Stratum1-Light;
+  font-family: Stratum1-Light;
+  src: url(../styles/fonts/Stratum1/Stratum1-Light.otf) format("opentype"); }
+body {
+  background-color: #2D2D2D;
+  font-family: Stratum1-Regular;
+  color: white;
+  box-sizing: border-box;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: -0.5px; }
+  body header {
+    position: relative;
+    height: 100px;
+    top: 10px;
+    left: 0;
+    right: 0; }
+    body header h1 {
+      font-family: Stratum1-Light;
+      color: #EEE; }
+
+.math-problems .box-problem {
+  width: 350px;
+  height: 400px;
+  border: 2px solid #8d8f92;
+  display: inline-block;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box; }
+  .math-problems .box-problem section {
+    margin: 10px 5px; }
+  .math-problems .box-problem .input-values input {
+    height: 40px;
+    font-size: 18px;
+    box-sizing: border-box; }
+  .math-problems .box-problem .input-values input[type="button"] {
+    background-color: #0288D1;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    font-family: Stratum1-Light;
+    padding: 10px; }
+    .math-problems .box-problem .input-values input[type="button"]:hover {
+      cursor: pointer;
+      background-color: #29B6F6; }
+  .math-problems .box-problem .input-values input[type="text"] {
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 16px; }
+  .math-problems .box-problem .result {
+    color: white;
+    padding-top: 30px;
+    border-bottom: 1px solid #EEE; }
+  .math-problems .box-problem .box-description {
+    margin-top: 30px; }
+    .math-problems .box-problem .box-description a {
+      text-decoration: none;
+      color: #0277BD; }
+      .math-problems .box-problem .box-description a:hover {
+        color: #4FC3Cf; }
+    .math-problems .box-problem .box-description p {
+      font-size: 18px;
+      font-family: Stratum1-Light;
+      text-align: left; }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 45px;
+  line-height: 45px;
+  background-color: #000000; }
+
+/*# sourceMappingURL=math.css.map */

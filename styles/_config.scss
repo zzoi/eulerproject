@@ -1,0 +1,31 @@
+$web-path: '';
+$light-text: white;
+$dark-black: #2D2D2D;
+$black:#000000;
+
+$light-grey: #EEE;
+$middle-grey: #d6d6d6;
+$dark-grey: #bebebe;
+
+
+$button-selected: #29B6F6;
+$button-inactive: #0288D1;
+$link-inactive: #0277BD;
+$link-selected: #4FC3Cf;
+
+
+$border-math-box: #8d8f92;
+$big-title: #fafafa;
+$results: #88898C;
+
+@font-face {
+  font-face-name: Stratum1-Regular;
+  font-family: Stratum1-Regular;
+  src: url(#{$web-path}../styles/fonts/Stratum1/Stratum1-Regular.otf) format('opentype');
+}
+
+@font-face {
+  font-face-name:Stratum1-Light;
+  font-family: Stratum1-Light;
+  src: url(#{$web-path}../styles/fonts/Stratum1/Stratum1-Light.otf) format('opentype');
+}
